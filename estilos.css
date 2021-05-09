@@ -29,12 +29,40 @@ body{
 	margin-bottom: 0px;
 }
 
+.menu1 p {
+	display:inline-block;
+
+}
+
+.menu1 p {
+	color:rgb(73,72,167); 
+	text-decoration:none;
+}
+
+.menu1 p:hover {
+	color:rgb(86,48,83);
+}
+
+.menu1 p {
+	padding-right:20px;
+	text-align:right;
+	box-sizing: border-box;
+	margin-bottom: 0px;
+}
+
+.cart div {
+	padding-right:20px;
+	text-align:right;
+	box-sizing: border-box;
+	margin-bottom: 0px;
+}
 
 .menu2 ul {
 	padding:0;
 	
 
 }
+
 .menu2 li {
 	display:inline-block;
 	
@@ -73,15 +101,22 @@ body{
 }
 
 .list  li{
-	display:block;
+	display:inline-block;
 	padding:20px;
 	background-color: rgb(223,210,225);
 	display: none;	
+	text-align:right;
 }
 
  .list ul li{
 	position: absolute;
 	min-width: 10px;
+	text-align:right;
+	
+}
+
+.list div {
+	display:block;
 	
 }
 
@@ -142,7 +177,6 @@ body{
 	justify-content:center;
 }
 .padre_flex_3{
-	background:rgb(223,210,225);
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
@@ -150,14 +184,21 @@ body{
 	margin: 0;
 }
 
-.padre_flex_3 p{
+.padre_flex_3{
 	padding-left: 40px;
 	font-size:38px; 
 	justify-content:center;
-	color:white; 
-	text-decoration:none;
+	color:white ; 
+	
 }
 
+.padre_flex_3{
+	text-decoration:none !important;
+}
+
+.padre_flex_3 a:hover {
+	color:rgb(223,210,225);
+}
 
 .div{
 	width:auto;
