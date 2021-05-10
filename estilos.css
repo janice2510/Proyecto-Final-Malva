@@ -97,26 +97,6 @@ body{
 	padding: 0px;
 }
 
-.list  li{
-	display:inline-block;
-	padding:20px;
-	background-color: rgb(223,210,225);
-	display: none;	
-	text-align:right;
-}
-
- .list ul li{
-	position: absolute;
-	min-width: 10px;
-	text-align:right;
-	
-}
-
-.list div {
-	display:block;
-	
-}
-
 .menu1 :hover .list li{
 	display: block;	
 	text-align:right;
