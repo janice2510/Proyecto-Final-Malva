@@ -1,7 +1,7 @@
 
 
 body{
-	background:url('fondo/fondo2.png');
+	background-image: linear-gradient(to bottom, #6B67B4 2%, #AA9AB5 20%, #D6CCD9 95%);
 	background-size:cover;
 	margin:0;
 	padding:0;
@@ -18,32 +18,29 @@ body{
 	text-decoration:none;
 }
 
-.menu1 a:hover {
+.menu1 i:hover {
 	color:rgb(86,48,83);
 }
 
-.menu1 ul {
+.menu1 i{
 	padding-right:20px;
 	text-align:right;
 	box-sizing: border-box;
 	margin-bottom: 0px;
-}
-
-.menu1 p {
 	display:inline-block;
-
 }
 
-.menu1 p {
-	color:rgb(73,72,167); 
+
+.menu1{
+	color:rgb(223,210,225); 
 	text-decoration:none;
 }
 
-.menu1 p:hover {
+.menu1:hover {
 	color:rgb(86,48,83);
 }
 
-.menu1 p {
+.menu1 {
 	padding-right:20px;
 	text-align:right;
 	box-sizing: border-box;
@@ -122,6 +119,23 @@ body{
 
 .menu1 :hover .list li{
 	display: block;	
+	text-align:right;
+}
+
+.botones_cuenta{
+	text-align:center;
+}
+
+.btn-primary {
+    background-color:rgb(223,210,225) !important;
+    border: rgb(223,210,225);
+    color:rgb(73,72,167);
+}
+
+.btn-primary:hover {
+    background-color:rgb(73,72,167) !important;
+    border: rgb(73,72,167);
+    color:rgb(223,210,225);
 }
 
 .logo a {
@@ -221,20 +235,20 @@ body{
 }
 
 
-.head_titulo_1 p{
+.head_titulo_1{
 	color:rgb(73,72,167);
 	font-size: 45px; 
 	text-align:center;
 	letter-spacing:3px;
 
 }
-.head_titulo_1 p{
+.head_titulo_1{
 	margin-top: 50px;
 
 }
 
 
-.head_titulo_2 p{
+.head_titulo_2{
 	color:rgb(73,72,167);
 	font-size:35px; 
 	text-align:center;
@@ -295,11 +309,7 @@ legend{
 	color:rgb(73,72,167);
 }
 
-.button{
-	background: rgb(223,210,225);
-	color:rgb(73,72,167);
-	border-image-outset: rgb(223,210,225);
-}
+
 
 th{
 	color:rgb(73,72,167); 
